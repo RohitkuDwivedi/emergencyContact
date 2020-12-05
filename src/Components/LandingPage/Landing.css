@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+.lp_box {
+  background: linear-gradient(
+    to bottom right,
+    rgb(47, 9, 9),
+    rgb(17, 71, 67),
+    rgb(115, 151, 115)
+  );
+}
+.profPic {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  /* border: 0.2em solid whitesmoke; */
+}
+.profileImageName {
+  /* border: 2px solid white; */
+  box-shadow: 0px 0px 10px rgb(115, 151, 115);
+  border-radius: 0.5em;
+  padding: 0.2em;
+  margin-top: 1em;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: top;
+}
+
+.profileImageName > * {
+  /* border: 1px solid white; */
+}
